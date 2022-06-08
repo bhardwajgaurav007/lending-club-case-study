@@ -25,7 +25,7 @@ For any loan application it receives, there are two types of risks associated wi
 7. Higher the dti, higher is the probability of loan getting Charged Off
 
 ## Contact
-Created by @bhardwajgaurav007 and @VijayKumarTiwary - feel free to contact me!
+Created by @bhardwajgaurav007 and @vijayktiwary - feel free to contact me!
 
 ## License
 This project is open source and free to use/edit by anyone
