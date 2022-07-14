@@ -1,27 +1,29 @@
 # lending-club-case-study
-The project is related to a case study of analysisng existing data of Bike-Sharing providers so as to understand the demand for shared bikes among the people after this ongoing quarantine situation ends across the nation due to Covid-19
+The project is related to a case study of analysisng existing data of loan applications so as to find the attributes of customers linked to high default rate of loan repayment
 
 ## Description
-BoomBikes is US bike-sharing provider who has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. They want to understand the factors on which the demand for these shared bikes depends. Specifically, they want to understand the factors affecting the demand for these shared bikes in the American market. THe want to understand
-1.Which variables are significant in predicting the demand for shared bikes.
-2.How well those variables describe the bike demands
+The consumer finance company is the largest online loan marketplace, facilitating personal loans, business loans, and financing of medical procedures. Borrowers can easily access lower interest rate loans through a fast online interface. 
+For any loan application it receives, there are two types of risks associated with it:-
+1. Not approving loan of the customers who are very likely to repay the loan is a loss of business opportunity to the company
+2. Approving loan of the customers who are not likely to repay the loan will result a loss to the company in future
 
 ## Technologies Used
 - python
-- numpy
-- matplotlib
-- pandas
-- seaborn
+	@@ -16,13 +15,10 @@ For any loan application it receives, there are two types of risks associated wi
 - math
 
 ## Conclusion
-• The demand for bike is more during Cloudy/misty(category 2) and light(category 3) rainy weather compared to heavy rain(category 4) and least during clear/partly cloud(category 1) weather.
-• There has been increase in demand of bikes over time i.e. there was significantly more demand during the year 2019 compared to the year 2018
-• There is more variation in demand of bikes(more min-max difference) during Holidays compared to non-holidays with on an average less demand of bikes during holidays compared to non-holidays.
-• Month of Jan has lowest demand of bikes and September being the highest.
+1. Higher the propotion of installment to the monthly salary of a customer higher is probability of charged off
+2. Higher the loan amount higher is the probability higher is probability of charged off
+3. Loan for the purpose of 'small business' has a very high probability of charged off followed by 'debt consolidation' purpose and 'house' purpose
+4. loan issued during December has a high probability of charged off compared to Feb and Mar months
+5. Customers with Number of public record bankruptcies greater than 0, are more likely to get loan Charged Off
+6. Customer with no employment are more likely to get loan Charged Off
+7. Higher the dti, higher is the probability of loan getting Charged Off
 
 ## Contact
 Created by @bhardwajgaurav007 and @vijayktiwary - feel free to contact me!
+	
 
 ## License
 This project is open source and free to use/edit by anyone
